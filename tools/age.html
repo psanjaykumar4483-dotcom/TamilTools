@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Age Calculator - TamilTools</title>
+    <meta name="description" content="TamilTools - Simple and useful online tools.">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Tamil<span>Tools</span></div>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../index.html#tools">Tools</a>
+        </nav>
+
+        <button id="themeBtn">🌙</button>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+            <p class="tag">🎂 TamilTools</p>
+
+            <h1>Age Calculator</h1>
+
+            <p class="description">
+                Enter your date of birth to calculate your age.
+            </p>
+        </section>
+
+
+        <section class="tools-section">
+
+            <div class="tool-card" style="max-width: 500px; margin: auto;">
+
+                <h3>Enter your Date of Birth</h3>
+
+                <input
+                    type="date"
+                    id="birthDate"
+                    style="width: 100%; padding: 14px; margin: 20px 0; border-radius: 10px; border: 1px solid #ddd;"
+                >
+
+                <button onclick="calculateAge()">
+                    Calculate Age
+                </button>
+
+                <div id="result" style="margin-top: 25px;"></div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 TamilTools. All rights reserved.</p>
+    </footer>
+
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
